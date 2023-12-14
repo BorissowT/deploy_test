@@ -3,7 +3,7 @@ import datetime
 from pymongo import MongoClient
 username = "admin"
 password = "password"
-client = MongoClient("localhost", 27018, username=username, password=password)
+client = MongoClient("mongo", 27018, username=username, password=password)
 
 db = client.test_database
 
