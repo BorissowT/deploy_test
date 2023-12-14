@@ -1,8 +1,7 @@
 version: '3'
 services:
   myapp:
-    build:
-      context: .
+    image: myapp:latest
     environment:
       MONGO_USERNAME: admin
       MONGO_PASSWORD: password
